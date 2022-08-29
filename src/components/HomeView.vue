@@ -40,9 +40,7 @@ export default {
       this.nowTime = this.setDate().year + '-' + this.setDate().month + '-' + this.setDate().date + '-' + this.setDate().hh + ':' + this.setDate().mm + ':' + this.setDate().ss;
     },
   },
-  mounted() {
-    // this.getTime();
-  },
+  mounted() {},
 };
 </script>
 
